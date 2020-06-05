@@ -1,0 +1,262 @@
+body{
+    background-color: #fff;
+  
+}
+.mark{
+    width:100%;
+    /* height: 95px; */
+    background-color:#004D40;
+    margin-bottom: 1px;
+
+}
+.mark > marquee{
+    /* direction: right !important; */
+    position: relative;
+    behavior :"alternate";
+    width: 60%;
+    color: #fff;
+    font-family: Book Antiqua;
+    font-weight: bold !important;
+    margin: 0px auto;
+    display: block;
+    padding-top: 5px;
+    background-color:  #004D40 ;
+
+}
+@media only screen and (max-width: 370px) {
+    .mark > marquee {
+        
+        width: 100% !important;
+        
+    }
+  }
+@media only screen and (max-width: 370px) {
+    h1 {
+      width: 100%;
+    }
+  }
+  .center{
+    background-size: 14% 50px;
+    background-image: url(projectss/nbb\ logo.png) !important;
+    background-repeat: no-repeat;
+    float: right;
+  }
+.center{
+    width: 100%;
+    /* height: 50px; */
+    margin-top: 0px;
+    /* padding-bottom: 1px; */
+    padding-top: 0px;
+    /* margin-bottom: 0px; */
+    text-align: center;
+    color: #fff;;
+    /* background-color: #00796B !important; */
+    background-color:#fff !important;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 3px #000000;
+   
+}
+.center > h1{
+    color: #004D40;
+}
+.navbar-brand > span{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: #EF6C00 !important;
+    text-shadow: 2px 2px 3px #000000;
+
+}
+ .logo{
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif; 
+        width: 40%;
+        height: 50px;
+        /* background-image: url(projectss/nbb\ logo.png) !important;
+      background-repeat: no-repeat; */
+    
+ }
+.navbar{
+    background-color:#004D40 !important;
+
+}
+.navbar-nav a:hover{
+    /* background-color: #ff9e22; */
+    background-color: #B71C1C; 
+    border-radius: 5px 5px 5px;
+    
+}
+
+.nav-link{
+    color: #fff !important;
+    font-weight: bold !important;
+}
+ 
+/*  Div Third */
+
+.D3 {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.D3 h3{
+        color: #004D40 !important;
+} 
+
+.D3 > .DR1,.DR2,.DR3{
+    display: flex;
+    width: 30%;
+    height: 100px; 
+    background-color: #fff;
+    box-shadow: 2px 4px 5px black;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+
+
+.fa-truck,.fa-user,.fa-thumbs-o-up,.fa-wheelchair-alt,.fa-handshake-o,.fa-fast-forward{
+    font-size: 50px !important;
+    margin-right: 20px;
+    color : #004D40 ;
+}
+
+@media only screen and (max-width: 400px) {
+    .D3> .DR1,.DR2,.DR3 {
+      width: 100%;
+    }
+  }
+
+
+/*  packages */
+
+
+  .Packages{
+      margin-top: 50px;
+  }
+  .card{
+      width: 250px;
+      height: auto !important;
+      margin-bottom: 20px;
+      align-items: center;
+      margin-top: 20px;
+  }
+  .card > img{
+    width: 100%;
+    height: 200px;
+}
+  .card-text{
+      font-weight: bold;
+  }
+  .card-title{
+      color: #004D40 ;
+      /* text-shadow: 5px 2px 4px #000; */
+  }
+  .btn-primary{
+      width: 100%;
+      background-color: #004D40;
+
+  }
+  .btn btn-primary a:hover{
+    background-color: gray ;
+}
+
+.Heading{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color:#fff;
+    /* color: #004D40 ; */
+    /* background-color: #ff9e22; */
+    background-color: #004D40 ;
+    margin-bottom:  10px ;
+    margin-top:  10px ;
+    padding: 10px;
+}
+.Heading > h1{
+ text-shadow: 2px 2px 4px #000;
+}
+
+  @media only screen and (max-width: 767px) {
+    .card {
+        width: 100%;
+      justify-content: center !important;
+    }
+  }
+.about{
+    width: 80% ;
+    margin: 10px auto;
+    /* text-align: center; */
+}
+.about > p{
+      color:#004D40;
+      text-align: center;
+      text-align: justify;
+  }
+.lead  a:hover{    
+    background-color:#ff9e22 !important ;
+  }
+
+  /* Contact us */
+
+  .contactus {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.contactus h3,p{
+    
+        color: #004D40 !important;
+} 
+
+.contactus > .cR1,.cR2,.cR3{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: auto;
+    background-color: #fff;
+    box-shadow: 2px 4px 5px black;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    
+}
+
+.fa-home,.fa-map-marker,.fa-envelope{
+    font-size: 50px !important;
+    margin-right: 20px;
+    color : #004D40 ;
+}
+
+@media only screen and (max-width: 400px) {
+   .contactus > .cR1,.cR2,.cR3 {
+      width: 100%;
+    }
+  }
+  .footer{
+      margin-top: 20px;
+      width: 100%;
+      height: 50px;
+      color: #fff;
+      background-color:#004D40 ;
+      padding-top: 10px;
+      
+  }
+  .footer > div h3{
+      padding: 10px auto;
+      text-align: center;
+      font-weight: bold;
+      font-family: 'Times New Roman', Times, serif;
+      text-shadow: 2px 2px 4px #000
+
+      
+  }
